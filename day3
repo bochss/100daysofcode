@@ -1,0 +1,20 @@
+choice_1 = input("Left or Right? <'Left' 'Right'> ").lower()
+if choice_1 == "left":
+  print("you come across a river")
+  choice_2 = input("do you wait for a boat or swim across? <'Wait' or 'Swim'> ").lower()
+  if choice_2 == "wait":
+    print("you make it across")
+    choice_3 = input("you come across three doors. Red, Yellow, and Blue. Which do you choose? <'Red' 'Yellow' 'Blue'> ").lower()
+    if choice_3 == "red":
+      print("You get the treasure! Congratulations!")
+    elif choice_3 == "yellow":
+      print("You get blown up. At least you died quickly")
+    else:
+      print("you suffer a long and painful death by the hand of a cruel crocodile.")
+    
+  else:
+    print("you get eaten my a river monster")
+    
+else:
+  print("you die in a hole.")
+  
